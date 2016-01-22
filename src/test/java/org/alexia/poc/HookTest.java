@@ -9,6 +9,6 @@ public class HookTest {
     public void should_add() throws Exception {
         Hook hook = new Hook(2);
         int result = hook.addOne();
-        assertThat(result).isEqualTo(3);
+        assertThat(result).isEqualTo(2);
     }
 }
